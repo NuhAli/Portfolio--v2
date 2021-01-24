@@ -38,7 +38,7 @@ const data = [
         src: nodeImage
     },
     {
-        name: 'SQL (Learning)',
+        name: 'MySQL (Learning)',
         src: mysqlImage
     },
     {

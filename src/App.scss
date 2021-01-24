@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 // Global
 * {
   margin: 0;
@@ -6,6 +8,8 @@
   font-family: 'Open Sans', sans-serif;
   scroll-behavior: smooth;
 }
+
+
 
 html, body, #root, .App {
   height: 100%;

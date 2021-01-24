@@ -1,0 +1,24 @@
+#projects {
+    background: #ebeeee;
+    padding-top: 90px;
+    padding-bottom: 60px;
+
+    .container {
+        margin: 0 auto;
+        width: 95%;
+        max-width: 1024px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        .section-title {
+            width: 100%;
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #242424;
+            margin-bottom: 2rem;
+            padding: 0.4rem 0;
+            border-bottom: 4px solid #F06000;
+        }
+    }
+}

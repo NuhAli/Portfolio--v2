@@ -26,12 +26,14 @@ const Aboutme = () => {
                             <h2 className="title">
                                 Contact Details
                             </h2>
+                            <ul>
+                                <li>Phone Number: 07534651923</li>
+                                <li>Email Address: Nuh_Mali@hotmail.co.uk</li>
+                            </ul>
                         </div>
                         <div className="resume">
-                            <a href="https://www.google.com" download>
-                                <button>
-                                    <FaDownload /> Download My Resume
-                                </button>
+                            <a href="https://www.google.com" className="download" download>
+                                <FaDownload /> "Download My Resume"
                             </a>
                         </div>
                     </div>

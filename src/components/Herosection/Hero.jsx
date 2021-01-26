@@ -5,7 +5,7 @@ import './Hero.scss'
 
 const Hero = () => {
     return (
-        <header className="header">
+        <header id="header" className="header">
             <div className="overlay">
                 <div className="content-area">
                     <div className="header__banner">
@@ -32,9 +32,9 @@ const Hero = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="down-icon">
+                    <a href="#about-me" className="down-icon">
                         <ImCircleDown />
-                    </div>
+                    </a>
                 </div>
             </div>
         </header>

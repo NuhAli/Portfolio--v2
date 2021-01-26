@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import Data from './Data'
-import {Link} from 'react-router-dom'
 import {FaBars,FaTimes} from 'react-icons/fa'
 import './Navbar.scss'
 
@@ -15,16 +14,16 @@ const Navbar = () => {
 
     const navItems = Data.map(item => {
         return (
-            <Link
+            <a
+                href={item.path}
                 key={item.id}
-                to={item.path}
             >
                 <li
                     className={item.className}
                 >
                     {item.name}
                 </li>
-            </Link>
+            </a>
         )
     })
 

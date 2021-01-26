@@ -1,31 +1,31 @@
 const Data = [
     {
         name: "Home",
-        path: '/',
+        path: '#home',
         id: 1,
         className: "nav__link"
     },
     {
         name: "About me",
-        path: '/aboutme',
+        path: '#about-me',
         id: 2,
         className: "nav__link"
     },
     {
         name: "Skills",
-        path: "/skills",
+        path: "#skills",
         id: 3,
         className: "nav__link"
     },
     {
         name: "Projects",
-        path: "/portfolio",
+        path: "#projects",
         id: 4,
         className: "nav__link"
     },
     {
         name: 'Contact me',
-        path: "/contactme",
+        path: "#contact-me",
         id: 5,
         className: "nav__link"
     }

@@ -32,7 +32,7 @@ header {
                 color: white;
                 text-align: center;
                 padding: 4rem;
-                z-index: 1000;
+                z-index: 50;
                 .main-title {
                     font: 90px/1.1em 'opensans-bold', sans-serif;
                     font-weight: bold;
@@ -56,7 +56,8 @@ header {
                         font-size: 2rem;
                         margin: 0 1.5rem;
                         cursor: pointer;
-
+                        color: white;
+                        
                         &:hover {
                             color: #F06000;
                             transition: all 0.3s ease-out;

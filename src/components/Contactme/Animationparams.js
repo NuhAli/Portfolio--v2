@@ -12,8 +12,8 @@ const parameters = {
             "opacity": 0.03
         },
         "move": {
-            "direction": "right",
-            "speed": 0.1
+            "direction": "random",
+            "speed": 0.4
         },
         "size": {
             "value": 1

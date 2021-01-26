@@ -5,7 +5,7 @@ import './Contactme.scss'
 
 const Contactme = () => {
     return (
-        <section className="bottom-hero">
+        <section id="contact-me" className="contact-me">
             <Particles
                     params={params}
             />
@@ -70,6 +70,7 @@ const Contactme = () => {
                     </div>
                 </div>
             </div>
+            
         </section>
     )
 }

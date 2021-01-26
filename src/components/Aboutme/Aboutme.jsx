@@ -33,7 +33,7 @@ const Aboutme = () => {
                         </div>
                         <div className="resume">
                             <a href="https://www.google.com" className="download" download>
-                                <FaDownload /> "Download My Resume"
+                                <FaDownload /> Download My Resume
                             </a>
                         </div>
                     </div>

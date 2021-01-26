@@ -8,6 +8,7 @@ import Projects from './components/Projects/Projects';
 import Viewer from './components/Modal/Viewer';
 import Skills from './components/Skills/Skills.jsx'
 import Contactme from './components/Contactme/Contactme';
+import Footer from './components/Footer/Footer';
 
 
 const App = () => {
@@ -47,6 +48,7 @@ const App = () => {
         handleClick={selectItem}
       />
       <Contactme />
+      <Footer />
     </div>
   );
 }

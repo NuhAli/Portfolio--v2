@@ -32,8 +32,7 @@
                 font-size: 1.4rem;
                 cursor: pointer;
                 &:hover {
-                    background-color: #F06000;
-                    color: white;
+                    color: #F06000;
                     transition: all 0.3s ease-out;
                 }
             }
@@ -57,6 +56,11 @@
                     font-size: 2rem;
                     font-weight: bold;
                     border-bottom: 0.1px solid #383838;
+                    &:hover {
+                        background-color: #F06000;
+                        color: white;
+                        transition: all 0.3s ease-out;
+                    }
                 }
 
                 &:last-child {

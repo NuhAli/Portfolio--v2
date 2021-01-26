@@ -24,15 +24,9 @@ const Data = [
         className: "nav__link"
     },
     {
-        name: "Testimonials",
-        path: "/testimonials",
-        id: 5,
-        className: "nav__link"
-    },
-    {
         name: 'Contact me',
         path: "/contactme",
-        id: 6,
+        id: 5,
         className: "nav__link"
     }
 ]

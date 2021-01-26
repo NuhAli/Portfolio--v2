@@ -34,11 +34,11 @@ const data = [
         src: jqImage
     },
     {
-        name: 'NodeJS (Learning)',
+        name: 'NodeJS ',
         src: nodeImage
     },
     {
-        name: 'MySQL (Learning)',
+        name: 'MySQL',
         src: mysqlImage
     },
     {

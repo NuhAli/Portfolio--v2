@@ -13,7 +13,7 @@ const portfolio = [
     {
         name: 'Portfolio v1',
         image: portfolioImage,
-        description: '',
+        description: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, esse!',
         liveUrl: '',
         github: '',
         id: 10

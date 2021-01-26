@@ -5,22 +5,39 @@ import Hero from './components/Herosection/Hero';
 import Navbar from './components/Navbar/Navbar';
 import portfolio from './components/Projects/Projectdata';
 import Projects from './components/Projects/Projects';
-import Modal from './components/Modal/Modal';
+import Viewer from './components/Modal/Viewer';
 import Skills from './components/Skills/Skills.jsx'
+import Contactme from './components/Contactme/Contactme';
 
 
 const App = () => {
+  // State area
+
   const [projects] = useState(portfolio)
-  const [currentItem,setCurrentItem] = useState([])
+
+  const [currentItem,setCurrentItem] = useState([projects[0]])
+
+  const [show, setShow] = useState(false);
+
+  // State Area End
+
+  // State Functions
+  const handleClose = () => setShow(false);
 
   const selectItem = (id) => {
     const selectedItem = projects.filter(project => project.id === id)
     setCurrentItem(selectedItem)
+    setShow(true)
   }
 
+// State Function end
   return (
     <div className="App">
-      <Modal currentItem={currentItem} />
+      <Viewer 
+        status={show}
+        currentItem={currentItem}
+        handleClose={handleClose} 
+      />
       <Navbar />
       <Hero />
       <Aboutme />
@@ -29,6 +46,7 @@ const App = () => {
         portfolio={projects}
         handleClick={selectItem}
       />
+      <Contactme />
     </div>
   );
 }

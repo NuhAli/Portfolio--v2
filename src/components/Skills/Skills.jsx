@@ -17,7 +17,7 @@ const Skills = () => {
             <div className="container">
                 <div className="title-area">
                     <h2 className="section-title">
-                        Libraries and Languages
+                        Technical Skills
                     </h2>
                 </div>
                 <div className="skills-area">

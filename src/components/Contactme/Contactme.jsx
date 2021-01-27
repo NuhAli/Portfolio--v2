@@ -62,7 +62,7 @@ const Contactme = () => {
                     <div className="social-media">
                         <div className="section-title">
                             <h2>Contact Me</h2>
-                            <h5>Follow me on my social media to keep up to date on my latest projects</h5>
+                            <h5>Follow me on Twitter to keep up to date with my latest projects...</h5>
                         </div>
                         <div className="twitter-feed">
 

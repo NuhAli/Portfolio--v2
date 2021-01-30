@@ -1,4 +1,6 @@
 import React from 'react'
+import Particles from 'react-particles-js'
+import {params} from './Heroparticles'
 import { FaGithub, FaLinkedinIn, FaSkype, FaTwitterSquare } from 'react-icons/fa'
 import { ImCircleDown } from 'react-icons/im'
 import './Hero.scss'
@@ -6,6 +8,9 @@ import './Hero.scss'
 const Hero = () => {
     return (
         <header id="header" className="header">
+            <Particles
+                    params={params}
+            />
             <div className="overlay">
                 <div className="content-area">
                     <div className="header__banner">

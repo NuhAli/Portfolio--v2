@@ -1,13 +1,14 @@
 import React from 'react'
 import Particles from 'react-particles-js'
-import {params} from './Animationparams'
+import { params } from './Animationparams'
+import { TwitterFollowButton , TwitterTweetEmbed } from 'react-twitter-embed';
 import './Contactme.scss'
 
 const Contactme = () => {
     return (
         <section id="contact-me" className="contact-me">
             <Particles
-                    params={params}
+                params={params}
             />
             <div className="overlay">
                 <div className="container">
@@ -16,14 +17,14 @@ const Contactme = () => {
                             <div className="row">
                                 <input
                                     type="text"
-                                    name="name" 
+                                    name="name"
                                     placeholder="Full Name"
                                     autoComplete="off"
                                     required
                                 />
-                                <input 
-                                    type="tel" 
-                                    name="contactNumber" 
+                                <input
+                                    type="tel"
+                                    name="contactNumber"
                                     placeholder="Phone Number"
                                     autoComplete="off"
                                     required
@@ -32,14 +33,14 @@ const Contactme = () => {
                             <div className="row">
                                 <input
                                     type="email"
-                                    name="email" 
+                                    name="email"
                                     placeholder="Email Address"
                                     autoComplete="off"
                                     required
                                 />
                                 <input
-                                    type="text" 
-                                    name="Company" 
+                                    type="text"
+                                    name="Company"
                                     placeholder="Company name"
                                     autoComplete="off"
                                     required
@@ -48,9 +49,9 @@ const Contactme = () => {
                             <div className="row">
                                 <textarea
                                     name=""
-                                    id="" 
+                                    id=""
                                     cols="30"
-                                    rows="10" 
+                                    rows="13"
                                     placeholder="Message..."
                                     autoComplete="off"
                                     required
@@ -65,12 +66,17 @@ const Contactme = () => {
                             <h5>Follow me on Twitter to keep up to date with my latest projects...</h5>
                         </div>
                         <div className="twitter-feed">
-
+                            <TwitterFollowButton
+                                screenName={'NuhAli58506544'}
+                            />
+                            <TwitterTweetEmbed
+                                tweetId="1355470877463359489"
+                            />
                         </div>
                     </div>
                 </div>
             </div>
-            
+
         </section>
     )
 }

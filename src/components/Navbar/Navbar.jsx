@@ -17,6 +17,7 @@ const Navbar = () => {
             <a
                 href={item.path}
                 key={item.id}
+                onClick={()=>{setClicked(false)}}
             >
                 <li
                     className={item.className}

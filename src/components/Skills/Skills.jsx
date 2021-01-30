@@ -33,7 +33,7 @@ const Skills = () => {
                 <div className="bar-area">
                     <SkillBar 
                         skills={softSkills}
-                        height={'50px'}
+                        height={'40px'}
                         animationDelay={300}
                     />
                 </div>

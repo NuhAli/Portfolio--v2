@@ -29,7 +29,7 @@
 
             .nav__link {
                 padding: 0 1rem;
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 cursor: pointer;
                 &:hover {
                     color: #F06000;
@@ -41,7 +41,7 @@
             position: absolute;
             top: 80px;
             transform: translateX(-100%);
-            width: 40%;
+            width: 100%;
             height: 100vh;
             display: flex;
             align-items: flex-start;

@@ -32,7 +32,7 @@ const Aboutme = () => {
                             </ul>
                         </div>
                         <div className="resume">
-                            <a href="https://www.google.com" className="download" download>
+                            <a href="/public/files/Nuh Ali CV.pdf" className="download" download>
                                 <FaDownload /> Download My Resume
                             </a>
                         </div>

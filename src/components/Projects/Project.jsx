@@ -1,22 +1,22 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card'
+
 
 const Project = (props) => {
     return (
-        <Card 
-            className="project"
-            onClick={()=>props.handleClick(props.project.id)}
-        >
-            <Card.Img variant="top" src={props.project.image}  />
-            <Card.Body>
-                <Card.Title>{props.project.name}</Card.Title>
-                <Card.Text>
-                    {
-                        props.project.description
-                    }
-                </Card.Text>
-            </Card.Body>
-        </Card>
+        <div className="cards-item">
+            <div className="cards-item-link" onClick={()=>props.handleClick(props.project.id)}>
+                <figure
+                    className="cards-item-pic-wrap" 
+                    data-category={props.project.name}
+                >
+                    <img 
+                        src={props.project.image} 
+                        alt={props.project.name} 
+                        className="cards-item-img"
+                    />
+                </figure>
+            </div>
+        </div>  
     )
 }
 

@@ -1,33 +1,30 @@
 const parameters = {
     "particles": {
         "number": {
-            "value": 120,
+            "value": 130,
             "density": {
                 "enable": true,
-                "value_area": 3000
+                "value_area": 1500
             }
         },
         "line_linked": {
             "enable": true,
-            "opacity": 0.01
+            "opacity": 0.03
         },
         "move": {
             "direction": "random",
-            "speed": 0.8
+            "speed": 0.4
         },
         "size": {
-            "value": 2.3
+            "value": 1
         },
         "opacity": {
             "anim": {
                 "enable": true,
                 "speed": 1,
-                "opacity_min": 2
+                "opacity_min": 0.05
             }
-        },
-        "color": {
-            "value": "#f3d38d"
-        },
+        }
     },
     "interactivity": {
         "events": {

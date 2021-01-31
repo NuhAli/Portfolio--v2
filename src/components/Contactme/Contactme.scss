@@ -1,10 +1,14 @@
 .contact-me {
     width: 100%;
-    height: 700px;
+    height: 900px;
     background: #303030;
     overflow: hidden;
     position: relative;
     
+    #tsparticles {
+        height: 100%;
+    }
+
     .overlay {
         position: absolute;
         top: 0;
@@ -24,7 +28,7 @@
             max-width: 1200px;
             display: grid;
             grid-template-columns: 1fr 1fr;
-            @media screen and (max-width: 780px) {
+            @media screen and (max-width: 1036px) {
                 grid-template-columns: 1fr;
             }
 
@@ -64,6 +68,33 @@
                         transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
                         background-color: transparent;
                         color: #c9c7c7;
+                        resize: none;
+                    }
+                    .submit {
+                        width: 100%;
+                        display: inline-block;
+                        padding: 10px 12px;
+                        margin: 5px;
+                        background-image: none;
+                        background-clip: padding-box;
+                        border: 1px solid #c9c7c7;
+                        border-radius: 3px;
+                        transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+                        background-color: transparent;
+                        color: #c9c7c7;
+
+                        &:hover {
+                            background-color: #F06000;
+                            border: 1px solid transparent;
+                            outline: none;
+                            color: white;
+                            transition: all 0.3s ease-out;
+                        }
+                    }
+                    @media screen and (max-width: 1128px) {
+                        input {
+                            width: 100%;
+                        }
                     }
                 }
             }
@@ -91,13 +122,41 @@
                     h5 {
                         font-size: 1.2rem;
                         color: #c9c7c7;
-                        margin: 2rem 0 1rem 0;
+                        margin: 2rem 0 1rem;
+                        @media screen and (max-width: 663px) {
+                            display: none;
+                        }
+                    }
+                    @media screen and (max-width: 780px) {
+                        text-align: center;
                     }
                 }
                 .twitter-feed {
                     width: 100%;
                 }
+                @media screen and (max-width: 1036px) {
+                    align-items: center;
+                    text-align: center;
+                    
+                    .twitter-feed {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
+                @media screen and (max-width: 663px) {
+                    .twitter-feed {
+                        display: none;
+                    }
+                }
             }
         }
+    }
+
+    @media screen and (max-width: 1036px) {
+        height: 1300px;
+    }
+    @media screen and (max-width: 663px) {
+        height: 1000px;
     }
 }

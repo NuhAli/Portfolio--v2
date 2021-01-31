@@ -13,13 +13,9 @@ import Footer from './components/Footer/Footer';
 
 const App = () => {
   // State area
-
   const [projects] = useState(portfolio)
-
   const [currentItem,setCurrentItem] = useState([projects[0]])
-
   const [show, setShow] = useState(false);
-
   // State Area End
 
   // State Functions

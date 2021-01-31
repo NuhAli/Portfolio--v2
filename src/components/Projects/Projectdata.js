@@ -1,6 +1,6 @@
 // Image load
 
-import portfolioImage from '../../images/projects/showcase.jpg'
+import portfolioImage from '../../images/projects/hero2.png'
 import gymImage from '../../images/projects/gym.jpg'
 import hfImage from '../../images/projects/hellofresh.jpg'
 import tdImage from '../../images/projects/todo.jpg'

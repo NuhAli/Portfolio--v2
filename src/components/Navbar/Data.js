@@ -1,7 +1,7 @@
 const Data = [
     {
         name: "Home",
-        path: '#home',
+        path: '#header',
         id: 1,
         className: "nav__link"
     },

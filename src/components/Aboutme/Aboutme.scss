@@ -4,10 +4,13 @@
     padding-bottom: 66px;
     overflow: hidden;
     position: relative;
-    height: 500px;
-    
+    min-height: 550px;
     #tsparticles {
+        position: absolute !important;
+        top: 0;
+        left: 0;
         height: 100%;
+        width: 100%;
     }
     .overlay {
         position: absolute;
@@ -136,8 +139,13 @@
             }
         }
     }
-
     @media screen and (max-width: 727px) {
         padding-top: 66px;
+        min-height: 666px;
+    }
+
+    @media screen and (max-width: 400px) {
+        padding-top: 66px;
+        min-height: 750px;
     }
 }

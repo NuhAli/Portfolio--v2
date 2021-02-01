@@ -1,7 +1,7 @@
 import React from 'react'
 import Particles from 'react-particles-js'
 import {params} from './Heroparticles'
-import { FaGithub, FaLinkedinIn, FaSkype, FaTwitterSquare } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn, FaTwitterSquare } from 'react-icons/fa'
 import { ImCircleDown } from 'react-icons/im'
 import './Hero.scss'
 
@@ -23,16 +23,13 @@ const Hero = () => {
                             role as a Front-End Developer.
                         </h4>
                         <div className="external-links">
-                            <a href="https://www.google.com">
+                            <a href="https://github.com/NuhAli" target="_blank" rel="noreferrer" >
                                 <FaGithub className="icon" />
                             </a>
-                            <a href="www.google.com">
+                            <a href="https://www.linkedin.com/in/nuh-ali-80a2121b2/" target="_blank" rel="noreferrer" >
                                 <FaLinkedinIn className="icon" />
                             </a>
-                            <a href="www.google.com">
-                                <FaSkype className="icon" />
-                            </a>
-                            <a href="www.google.com">
+                            <a href="https://twitter.com/NuhAli58506544" target="_blank" rel="noreferrer">
                                 <FaTwitterSquare className="icon" />
                             </a>
                         </div>

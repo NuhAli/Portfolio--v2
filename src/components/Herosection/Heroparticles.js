@@ -9,7 +9,7 @@ const parameters = {
         },
         "line_linked": {
             "enable": true,
-            "opacity": 0.01
+            "opacity": 0.03
         },
         "move": {
             "direction": "random",
@@ -26,7 +26,7 @@ const parameters = {
             }
         },
         "color": {
-            "value": "#f3d38d"
+            "value": "#f3cb75"
         },
     },
     "interactivity": {

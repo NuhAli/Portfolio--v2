@@ -1,16 +1,27 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useForm } from 'react-hook-form'
 import Particles from 'react-particles-js'
 import { params } from './Animationparams'
-import { TwitterFollowButton, TwitterTweetEmbed } from 'react-twitter-embed';
+import { TwitterFollowButton, TwitterTweetEmbed } from "react-twitter-embed";
+import formSender from './Formsender';
 import './Contactme.scss'
 
-const Contactme = () => {
-    const { register, handleSubmit } = useForm()
-    const [form, setForm] = useState({})
 
+const Contactme = () => {
+
+    const { register, handleSubmit,reset } = useForm({
+        defaultValues: {
+            name: "",
+            contactNumber: "",
+            email: "",
+            company: "",
+            message: ""
+        }
+    })
+    
     const submit = (data) => {
-        setForm(data)
+        formSender.submitForm(data)
+        reset({})
     }
 
     return (

@@ -13,7 +13,7 @@ const portfolio = [
         name: 'Portfolio v1',
         image: portfolioImage,
         description: 'The first version of my portfolio, I used HTML5, SASS/SCSS and Javascript. The icons were taken from the font awesome CDN and I used the GSAP library for all the animations',
-        liveUrl: 'https://www.nuhali.com',
+        liveUrl: 'https://nuhali.github.io/Portfolio---Source-Code/index.html',
         github: 'https://github.com/NuhAli/Portfolio---Source-Code',
         id: 10
     },

@@ -4,9 +4,11 @@ import sassImage from '../../images/Orion_sass.svg'
 import htmlImage from '../../images/html5-svgrepo-com.svg'
 import typesImage from '../../images/typescript-logo-svgrepo-com.svg'
 import nodeImage from '../../images/nodejs-icon-logo-svgrepo-com.svg'
-import mysqlImage from '../../images/mysql-svgrepo-com.svg'
+import materialImage from '../../images/material-ui-svgrepo-com.svg'
 import jqImage from '../../images/jquery-1-logo-svgrepo-com.svg'
 import gitImage from '../../images/git-icon-logo-svgrepo-com.svg'
+import bootStrap from '../../images/bootstrap-4-logo-svgrepo-com.svg'
+
 
 const data = [
     {
@@ -38,8 +40,12 @@ const data = [
         src: nodeImage
     },
     {
-        name: 'MySQL',
-        src: mysqlImage
+        name: 'Bootstrap',
+        src: bootStrap
+    },
+    {
+        name: 'Material-UI',
+        src: materialImage
     },
     {
         name: 'Git',

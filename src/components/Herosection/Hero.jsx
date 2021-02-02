@@ -20,7 +20,7 @@ const Hero = () => {
                         <h4 className="main-text">
                             I'm an ambitious, commercially focused website developer and experienced project manager, with a
                             wealth of transferable skills and a passion for digital innovation, I'm seeking an entry-level
-                            role as a Front-End Developer.
+                            role as a Frontend Developer.
                         </h4>
                         <div className="external-links">
                             <a href="https://github.com/NuhAli" target="_blank" rel="noreferrer" >

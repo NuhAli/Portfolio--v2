@@ -1,4 +1,4 @@
-const formSender = {
+const sendForm = {
     async submitForm(data){
         const response = await fetch("https://formspree.io/f/meqpdoab", {
             method: 'POST',
@@ -16,4 +16,4 @@ const formSender = {
     }
 }
 
-export default formSender
+export default sendForm

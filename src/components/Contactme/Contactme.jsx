@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 import Particles from 'react-particles-js'
 import { params } from './Animationparams'
 import { TwitterFollowButton, TwitterTweetEmbed } from "react-twitter-embed";
-import formSender from './Formsender';
+import sendForm from './Sendform';
 import './Contactme.scss'
 
 
@@ -20,7 +20,7 @@ const Contactme = () => {
     })
     
     const submit = (data) => {
-        formSender.submitForm(data)
+        sendForm.submitForm(data)
         reset({})
     }
 

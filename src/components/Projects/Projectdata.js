@@ -36,7 +36,7 @@ const portfolio = [
     {
         name: 'Todo List App',
         image: tdImage,
-        description: 'I created a basic to do list app to test my knowledge of basic state managment and passing down props. The features include, adding a task, removing a task and editing a task. I used class based react coponents, Javascript and CSS.',
+        description: 'I created a to do list app to test my knowledge of basic state managment and prop passing. The features include, adding a task, removing a task and editing a task. I used class based react components, Javascript and CSS.',
         liveUrl: 'https://nuhali.github.io/ReactTodoList--Project-2',
         github: 'https://github.com/NuhAli/ReactTodoList--Project-2',
         id: 13

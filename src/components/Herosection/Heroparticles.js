@@ -21,7 +21,7 @@ const parameters = {
         "opacity": {
             "anim": {
                 "enable": true,
-                "speed": 1,
+                "speed": 1.3,
                 "opacity_min": 2
             }
         },
